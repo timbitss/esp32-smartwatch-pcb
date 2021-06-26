@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name KiCad)(type KiCad)(uri ${KIPRJMOD}/SI1317DL-T1-GE3/SI1317DL-T1-GE3/KiCad.pretty)(options "")(descr ""))
+  (lib (name open-Smartwatch)(type KiCad)(uri ${KIPRJMOD}/open-Smartwatch.pretty)(options "")(descr ""))
+  (lib (name custom-footprints)(type KiCad)(uri ${KIPRJMOD}/custom-footprints.pretty)(options "")(descr ""))
+  (lib (name library)(type KiCad)(uri ${KIPRJMOD}/library.pretty)(options "")(descr ""))
+  (lib (name esp32-smartwatch)(type KiCad)(uri ${KIPRJMOD}/custom-footprints.pretty/esp32-smartwatch.pretty)(options "")(descr ""))
+)

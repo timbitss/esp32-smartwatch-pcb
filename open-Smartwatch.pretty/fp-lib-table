@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name open-Smartwatch)(type KiCad)(uri D:/KiCad/projects/esp32-smartwatch/open-Smartwatch.pretty)(options "")(descr ""))
+)

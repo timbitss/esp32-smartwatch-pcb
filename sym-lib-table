@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name esp32-smartwatch-rescue)(type Legacy)(uri ${KIPRJMOD}/esp32-smartwatch-rescue.lib)(options "")(descr ""))
+  (lib (name SI1317DL-T1-GE3)(type Legacy)(uri ${KIPRJMOD}/library/SI1317DL-T1-GE3.lib)(options "")(descr ""))
+  (lib (name open-Smartwatch)(type Legacy)(uri ${KIPRJMOD}/library/open-Smartwatch.lib)(options "")(descr ""))
+)

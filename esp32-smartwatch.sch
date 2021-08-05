@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Personal ESP32 Smartwatch"
 Date "2021-06-18"
-Rev "1.0"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -575,36 +575,34 @@ Text Notes 8000 2850 0    50   ~ 0
 Flash mode:\nHold down BOOT while pressing RST.
 Wire Notes Line
 	4450 500  4450 7800
+Connection ~ 1950 6950
 Wire Wire Line
-	2000 6950 2150 6950
-Connection ~ 2000 6950
-Wire Wire Line
-	2000 7000 2000 6950
+	1950 7000 1950 6950
 Connection ~ 1800 6950
 Wire Wire Line
-	1800 6950 2000 6950
+	1800 6950 1950 6950
 Wire Wire Line
-	2000 7300 2000 7350
+	1950 7300 1950 7350
 $Comp
 L Device:C C4
 U 1 1 6143BFCB
-P 2000 7150
-F 0 "C4" H 1750 7150 50  0000 L CNN
-F 1 "10uF" H 1700 7050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2038 7000 50  0001 C CNN
-F 3 "~" H 2000 7150 50  0001 C CNN
-	1    2000 7150
+P 1950 7150
+F 0 "C4" H 1700 7150 50  0000 L CNN
+F 1 "10uF" H 1650 7050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1988 7000 50  0001 C CNN
+F 3 "~" H 1950 7150 50  0001 C CNN
+	1    1950 7150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR014
 U 1 1 614608F8
-P 2000 7350
-F 0 "#PWR014" H 2000 7100 50  0001 C CNN
-F 1 "GND" H 2005 7177 50  0001 C CNN
-F 2 "" H 2000 7350 50  0001 C CNN
-F 3 "" H 2000 7350 50  0001 C CNN
-	1    2000 7350
+P 1950 7350
+F 0 "#PWR014" H 1950 7100 50  0001 C CNN
+F 1 "GND" H 1955 7177 50  0001 C CNN
+F 2 "" H 1950 7350 50  0001 C CNN
+F 3 "" H 1950 7350 50  0001 C CNN
+	1    1950 7350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -621,17 +619,6 @@ $EndComp
 Wire Wire Line
 	3500 6700 3500 6950
 $Comp
-L Regulator_Linear:XC6220B331MR U3
-U 1 1 60D93332
-P 2650 7050
-F 0 "U3" H 2650 7417 50  0000 C CNN
-F 1 "XC6220B331MR" H 2650 7326 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2650 7050 50  0001 C CNN
-F 3 "https://www.torexsemi.com/file/xc6220/XC6220.pdf" H 3400 6050 50  0001 C CNN
-	1    2650 7050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C7
 U 1 1 60D9AEE4
 P 3300 7150
@@ -644,7 +631,6 @@ F 3 "~" H 3300 7150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 6950 3200 6950
-NoConn ~ 2150 7150
 $Comp
 L power:VBUS #PWR04
 U 1 1 6127DA36
@@ -1898,4 +1884,24 @@ F 3 "" H 1800 6600 50  0001 C CNN
 	1    1800 6600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Regulator_Linear:XC6220B331MR U3
+U 1 1 60D93332
+P 2650 7050
+F 0 "U3" H 2650 7417 50  0000 C CNN
+F 1 "XC6220B331MR" H 2650 7326 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2650 7050 50  0001 C CNN
+F 3 "https://www.torexsemi.com/file/xc6220/XC6220.pdf" H 3400 6050 50  0001 C CNN
+	1    2650 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 6950 2100 6950
+Wire Wire Line
+	2150 7150 2100 7150
+Wire Wire Line
+	2100 7150 2100 6950
+Connection ~ 2100 6950
+Wire Wire Line
+	2100 6950 2150 6950
 $EndSCHEMATC

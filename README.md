@@ -1,4 +1,4 @@
-# PCB Design for a Personal ESP32 Smartwatch
+# Personal ESP32 Smartwatch PCB
 
 ## Completed PCB
 

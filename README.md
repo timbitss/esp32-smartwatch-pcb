@@ -6,7 +6,7 @@
 
 ## Schematic
 
-[![Image of schematic](images/schematic.png)](images/schematic.pdf)
+[![Image of schematic](images/schematic.pdf)](images/schematic.pdf)
 
 ## All Layers
 

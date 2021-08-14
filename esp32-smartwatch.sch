@@ -1702,7 +1702,7 @@ Wire Wire Line
 	5300 4300 5650 4300
 Text Label 5300 4300 0    50   ~ 0
 ALARM
-Text Notes 6900 3100 0    50   ~ 0
+Text Notes 6800 3050 0    50   ~ 0
 Configure VSPI (SPI3) to\nbypass GPIO matrix.
 $Comp
 L Device:R R15
@@ -1806,8 +1806,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 4600 7300 4600
 NoConn ~ 5650 4100
-Text Notes 6900 2800 0    50   ~ 0
-Enable internal \npull-up for \n~DS_INT and BAT_STAT.
 Wire Wire Line
 	3100 2300 3400 2300
 Wire Wire Line
@@ -1829,4 +1827,6 @@ Wire Wire Line
 	6950 4500 7300 4500
 Text Label 7300 4500 2    50   ~ 0
 ~DS_RST
+Text Notes 6800 2750 0    50   ~ 0
+Enable internal \npull-up for IO14 and IO16.
 $EndSCHEMATC

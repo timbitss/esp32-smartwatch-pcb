@@ -6,7 +6,7 @@
 
 ## Schematic
 
-[![Schematic](images/schematic.png)](images/schematic.pdf)
+[![Schematic](images/esp32-smartwatch.png)](images/esp32-smartwatch.pdf)
 
 ## All Layers
 

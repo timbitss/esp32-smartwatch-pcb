@@ -28,3 +28,5 @@ fp-info-cache
 
 # Binaries
 *.bin
+
+custom-footprints.pretty

@@ -1,8 +1,8 @@
 # Personal ESP32 Smartwatch PCB
 
-## Completed PCB
+## Blinky Test
 
-![Manufactured PCB](images/manufactured_pcb.jpg)
+![Blinky](/images/blinky.gif)
 
 ## Schematic
 

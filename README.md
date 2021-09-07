@@ -1,4 +1,4 @@
-# Personal ESP32 Smartwatch PCB
+# ESP32 Smartwatch PCB
 
 ## Blinky Test
 
